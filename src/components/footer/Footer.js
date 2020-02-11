@@ -4,9 +4,9 @@ import './style.css'
 const Footer = (props) => {
     return (
         <button className="footer" >
-            <text className="footer__text">
+            <span className="footer__text">
                 I'M ALREADY AN ADVENTURER
-            </text>
+            </span>
         </button>
     )
 };

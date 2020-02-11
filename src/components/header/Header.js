@@ -4,7 +4,7 @@ import './style.css'
 const Header = (props) => {
     return (
         <div className={'header__container'}>
-            <text className={'header__title'}>Join the React Adventure!</text>
+            <span className={'header__title'}>Join the React Adventure!</span>
         </div>
     )
 }

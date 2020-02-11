@@ -9,8 +9,10 @@ const Input = (props) => {
             className="input"
             type={props.type}
             placeholder={props.placeholder}
+            onChange={(e) => props.onChange({field: props.field, value:e.target.value})}
+            value={props.value}
         />
-        <label for={props.label} className="input__label">{props.label}</label>
+        <label htmlFor={props.label} className="input__label">{props.label}</label>
         </div>
     )
 };
@@ -18,11 +20,14 @@ const Input = (props) => {
 Input.propTypes = {
     placeholder: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
-    type: PropTypes.string
+    type: PropTypes.string,
+    onChange: PropTypes.func.isRequired,
+    value: PropTypes.string.isRequired,
+    field: PropTypes.string.isRequired,
 }
 
 Input.defaultProps = {
-    type: 'input'
+    type: 'input',
 }
 
 
