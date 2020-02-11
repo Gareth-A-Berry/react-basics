@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    width: 100%;
+    outline: 0;
+    border: none;
+    background-color: #A77B22;
+}
+
+.footer__text {
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+.footer:hover {
+    background-color: rgba(192, 145, 36, 0.81);
+
+}

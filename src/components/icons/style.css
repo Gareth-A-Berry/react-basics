@@ -1,0 +1,15 @@
+.icon__button {
+    height: 6rem;
+    width: 6rem;
+    outline: 0;
+    border-radius: 6rem;
+    background-color: transparent;
+    border: 0.1rem solid #A77B22;
+}
+
+.icon__button:hover {
+    transition: 0.1s;
+    color: #b7b7b7;
+    background-color: rgba(147, 147, 147, 0.5);
+    border-color: white;
+}
